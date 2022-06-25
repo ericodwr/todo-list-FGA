@@ -72,7 +72,7 @@ export class App extends Component {
           removeNoteHandler={this.removeNoteHandler}
           addArchiveHandler={this.addArchiveHandler}
         />
-
+        
         <Button name={'Archived'} onClick={this.isArchivedOpenHandler} />
         {this.state.isArchivedOpen && (
           <Archived
